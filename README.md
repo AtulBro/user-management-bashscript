@@ -11,14 +11,14 @@ A bash-based Linux user management project focused on creating local user and co
   - hostname
  
 ## Step to create script
-- Check if the script is being executed with SU privilege
-- if the user doesn't supply atleast one argument then give them help
-- the first parameter is the username
-- The resy of the parameyer are for the comments
-- Generate a password
-- Create the user with that password
-- Check to see if the useradd command succeeded
-- Set the password
-- Check to see if the password command succeeded
-- Force password change on first login
-- Display username,password,hostname where the user is created
+1. Check if the script is being executed with SU privilege
+2. if the user doesn't supply atleast one argument then give them help
+3. the first parameter is the username
+4. The resy of the parameyer are for the comments
+5. Generate a password
+6. Create the user with that password
+7. Check to see if the useradd command succeeded
+8. Set the password
+9. Check to see if the password command succeeded
+10. Force password change on first login
+11. Display username,password,hostname where the user is created
